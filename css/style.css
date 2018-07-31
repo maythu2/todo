@@ -1,0 +1,133 @@
+body {
+	font-family: arial;
+	font-size: 15px;
+	background: #F1F1F1;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 8px;
+	background: #247;
+	color: #FFF;
+	font-size: 18px;
+}
+
+#wrap {
+	width: 500px;
+	padding: 20px;
+	border: 4px solid #DDD;
+	margin: 20px auto;
+	background: #FFF;
+	border-radius: 5px;
+}
+
+#tasks {
+	margin: 10px 0 30px 0;
+	padding: 0;
+	list-style:  none;
+	clear: both;
+}
+
+#tasks li {
+	padding: 6px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+#tasks li b {
+	font-weight: normal;
+	color: #555;
+}
+
+#tasks li a, #tasks li b, #task li i {
+	float: left;
+	margin-right: 5px;
+}
+
+#tasks li a.action {
+	float: right;
+	margin-left: 2px;
+}
+
+#tasks li i {
+	font-size: 12px;
+	color: #999;
+}
+
+#done {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #999;
+	font-size: 12px;
+}
+
+#done li {
+	padding: 2px 0;
+	overflow: hidden;
+}
+
+#done li a, #done li b {
+	float: left;
+	margin-right: 3px;
+}
+
+#done li span {
+	text-decoration: line-through;
+}
+
+#actions {
+	overflow: hidden;
+	width: 540px;
+	margin: 20px auto 0 auto;
+}
+
+.new-task {
+	display: block;
+	float: right;
+	padding: 6px 20px 6px 30px;
+	text-decoration: none;
+	border: 1px solid #00CC33;
+	background: #03BF2F url(../images/add.png) no-repeat 6px;
+	font-size: 13px;
+	border-radius: 30px;
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.new-task:hover {
+	background-color: #11DB43;
+}
+
+#tasks li.normal b {
+	color: #247;
+	font-weight: normal;
+}
+
+#tasks li.important b {
+	color: #900;
+}
+
+/* Form */
+input[type=text], select {
+	border: 1px solid #ddd;
+	background: #FFF;
+	font-size: 15px;
+	padding: 5px;
+	width: 260px;
+}
+
+input[type=text]:focus, select:focus {
+	background: #FFE;
+}
+
+select {
+	width: 272px;
+}
+
+input[type=submit] {
+	padding: 4px 15px;
+}
+
